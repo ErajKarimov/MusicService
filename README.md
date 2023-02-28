@@ -50,6 +50,11 @@ make
 
 ![Image alt](https://github.com/ErajKarimov/SberMusic/blob/master/image/Pasted%20image%2020230228204012.png)
 
+В папке build, также будет находится исполняемый файл check. Который запускает unit тесты. 
+````markdown
+./check
+````
+
 Если вы поменяли playlist.proto, после сохранения изменений, выполните эти команды:
 ````
 protoc -I . --grpc_out=. --plugin=protoc-gen-grpc=`which grpc_cpp_plugin` playlist.proto
