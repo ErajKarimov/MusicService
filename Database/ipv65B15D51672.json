@@ -1,0 +1,12 @@
+{
+    "songs": [
+        {
+            "duration": 1000,
+            "name": "Song2"
+        },
+        {
+            "duration": 3000,
+            "name": "Song3"
+        }
+    ]
+}
