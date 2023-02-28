@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  server:
+    build: .
+    command: ./build/grpc-server
+    ports:
+      - 50051:50051
+  client:
+    build: .
+    network_mode: host
+    depends_on:
+      - server
