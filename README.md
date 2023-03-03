@@ -95,7 +95,7 @@ cd build
 ````markdown
 docker-compose --file docker-compose.yml run client bash
 cd build
-./grpc-server
+./grpc-client
 ````
 ## **Пример работы:**
 ![Image alt](https://github.com/ErajKarimov/SberMusic/blob/master/image/Pasted%20image%2020230228224649.png)
